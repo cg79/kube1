@@ -1,0 +1,30 @@
+docker
+build local image with dockerfile
+docker build -t im1:v1 .
+
+
+
+minikube
+https://rominirani.com/tutorial-getting-started-with-kubernetes-on-your-windows-laptop-with-minikube-3269b54a226#.3jo76q2mx
+	start
+	minikube start --vm-driver=hyperv --hyperv-virtual-switch=Minikube
+
+https://stackoverflow.com/questions/49898535/kubernetes-fails-to-run-a-docker-image-build-locally
+
+//push images into docker hub
+
+Always build your image with "username" and "tag"
+
+docker build -t <username>/dev-fedora:latest .
+
+After building push the image
+
+docker push <username>/dev-fedora:latest
+
+
+//----------------------------------
+kubectl create secret docker-registry regcred --docker-username=claudiu9379 --docker-password=tarantula --docker-email=claudiu9379@yahoo.com -n claunamespace
+
+--
+links
+https://medium.com/@yzhong.cs/getting-started-with-kubernetes-and-docker-with-minikube-b413d4deeb92

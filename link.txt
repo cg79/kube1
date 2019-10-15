@@ -1,0 +1,4 @@
+https://kubernetes.io/docs/tutorials/hello-minikube/#objectives
+https://www.youtube.com/watch?v=E8VxEkyWZG8
+
+minikube start --vm-driver=hyperv --hyperv-virtual-switch=Minikube
